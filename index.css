@@ -1,0 +1,66 @@
+#navlink{
+    font-size: larger;
+    padding: 5px;
+    gap: 15px;
+}
+#button{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: large;
+    background-image: repeating-radial-gradient( rgb(226, 95, 226),rgb(158, 20, 20) ,rgb(84, 5, 84), rgb(44, 2, 44));
+    color: white;
+}
+
+@media only screen and ( max-width: 425px) and (min-width:320px)
+{
+#mheading{
+    text-align: center;
+
+}
+
+#button{
+margin-left: 20px;
+}
+
+#col1{
+    text-align:center ;
+}
+
+
+
+
+
+.text-end {
+    text-align: center !important;
+    margin: 0%;
+}
+  
+#img2 {
+    width: 300px !important;
+    
+}
+
+#col3 {
+    text-align: center !important;
+    padding-top: 30px;
+}
+
+
+#col4 {
+    text-align: center !important;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+}
+@media only screen and (max-width:768px){
+    #img2{
+        width: 500px;
+
+    }
+    .navbar-text{
+        margin-left: 700px;
+    }
+}
